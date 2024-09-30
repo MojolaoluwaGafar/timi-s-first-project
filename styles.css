@@ -144,6 +144,33 @@ header li:hover {
   cursor: default;
 }
 
+  #sect2 {
+    width: 1198px;
+    height: 202px;
+    margin: auto;
+    margin-top: -72px;
+    border: none;
+    border-radius: 15px;
+    background-color: #fcbb80;
+    filter: drop-shadow(3px, 4px, 25px, #08748c);
+  }
+  #sect2 section {
+    padding: 36px, 23px;
+  }
+
+  #sect2 h3 {
+    font-weight: 400;
+    font-size: 41px;
+    color: #000000;
+    font-family: "Righteous", sans-serif;
+  }
+  #sect2 p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    font-family: "Reddit Sans", sans-serif;
+  }
+
 #about {
   background-color: white;
   background-image: url(./CalmBearImages/Group\ 3.png);
@@ -470,6 +497,21 @@ footer button {
   color: white;
 }
 
+/* @media (min-width:1024px) {
+      #arrows {
+    overflow-y: unset;
+    display: flex;
+    flex-direction:
+  }
+  #arrows img{
+    width: 260px;
+  }
+} */
+ @media (min-width:1200px) {
+     #arrows {
+    overflow-y: unset;}
+ }
+
 @media (min-width: 1440px) {
   #sect1 {
     gap: 179px;
@@ -486,33 +528,6 @@ footer button {
     font-size: 16px;
   }
 
-  #sect2 {
-    width: 1198px;
-    height: 202px;
-    margin: auto;
-    margin-top: -72px;
-    border: none;
-    border-radius: 15px;
-    background-color: #fcbb80;
-    filter: drop-shadow(3px, 4px, 25px, #08748c);
-  }
-  #sect2 section {
-    padding: 36px, 23px;
-  }
-
-  #sect2 h3 {
-    font-weight: 400;
-    font-size: 41px;
-    color: #000000;
-    font-family: "Righteous", sans-serif;
-  }
-  #sect2 p {
-    font-weight: 400;
-    font-size: 24px;
-    color: #000000;
-    font-family: "Reddit Sans", sans-serif;
-  }
-
   #readcontainer {
     width: 506px;
     height: 243px;
@@ -523,9 +538,6 @@ footer button {
     height: 105px;
     font-weight: 400;
     line-height: 20.78px;
-  }
-  #arrows {
-    overflow-y: unset;
   }
   #sect6 {
     display: flex;
